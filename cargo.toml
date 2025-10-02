@@ -1,0 +1,5 @@
+[package]
+name = "crypto-glossary"
+version = "0.1.0"
+
+[dependencies]
