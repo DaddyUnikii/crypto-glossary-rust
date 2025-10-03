@@ -1,0 +1,6 @@
+# Rust
+target/
+Cargo.lock
+.fargo/
+.cargo/
+**/*.rs.bk
