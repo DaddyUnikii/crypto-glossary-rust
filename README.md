@@ -12,7 +12,12 @@ Kamus istilah crypto untuk pemula.
 - `LICENSE`: Lisensi MIT
 
 ## 🧪 Fungsi CLI
-- `check_price()`: Contoh fungsi buat cek harga crypto (masih dummy).
+- `check_price()`: Simulasi cek harga Bitcoin.
+- `list_coins()`: Daftar coin populer.
+- `get_coin_info(coin)`: Info singkat tentang coin.
+
+## 📦 Data Simulasi
+- File `data.rs` menyimpan info coin (BTC, ETH, BNB).
 
 ## 🚀 Catatan
 - Project ini nggak bisa di-run karena nggak ada Rust di komputer lo.
