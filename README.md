@@ -43,7 +43,18 @@ Pilih opsi (1-4): 1
 
 > 💡 **Tip**: Kalo lo install Rust nanti, tinggal ketik `cargo test` buat jalankan semua test! 🚀
 
+## 🌐 Simulasi API Crypto
+- `get_crypto_price(coin)`: Simulasi cek harga coin.
+- `get_crypto_chart(coin)`: Simulasi chart harga 7 hari.
 
+## 📊 Contoh Output
+```bash
+🔍 Cek harga Bitcoin via API:
+Bitcoin: $60,000 (simulasi)
+
+📈 Chart Bitcoin 7 hari:
+$55k → $60k → $65k
+```
 
 ## 🚀 Catatan
 - Project ini nggak bisa di-run karena nggak ada Rust di komputer lo.
