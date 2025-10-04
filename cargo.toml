@@ -3,3 +3,7 @@ name = "crypto-glossary"
 version = "0.1.0"
 
 [dependencies]
+
+[lib]
+name = "crypto_glossary"
+test = "tests/lib.rs"
