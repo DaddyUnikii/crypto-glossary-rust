@@ -30,3 +30,6 @@ fn main() {
     let choice = "1"; // Simulasi pilihan 1
     ui::handle_choice(choice);
 }
+// Import modul tests (simulasi)
+#[cfg(test)]
+mod tests;
