@@ -19,3 +19,14 @@ fn main() {
     println!("\n🔍 Info Coin:");
     println!("{}", data::get_coin_info("BTC"));
 }
+mod commands;
+mod data;
+mod ui;
+
+fn main() {
+    println!("📚 Crypto CLI Tool");
+    ui::show_menu();
+    // Simulasi input pengguna
+    let choice = "1"; // Simulasi pilihan 1
+    ui::handle_choice(choice);
+}
