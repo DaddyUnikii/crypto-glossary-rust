@@ -24,7 +24,7 @@ Kamus istilah crypto untuk pemula.
 - `handle_choice(choice)`: Proses pilihan pengguna (simulasi).
 
 ## 🧪 Contoh Penggunaan
-``bash
+bash
 $ cargo run
 🚀 Crypto CLI Menu
 1. Cek Harga Bitcoin
