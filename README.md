@@ -24,7 +24,7 @@ Kamus istilah crypto untuk pemula.
 - `handle_choice(choice)`: Proses pilihan pengguna (simulasi).
 
 ## 🧪 Contoh Penggunaan
-```bash
+``bash
 $ cargo run
 🚀 Crypto CLI Menu
 1. Cek Harga Bitcoin
@@ -33,6 +33,16 @@ $ cargo run
 4. Keluar
 Pilih opsi (1-4): 1
 💰 Cek harga Bitcoin...
+
+## 🧪 Unit Tests
+- `tests/lib.rs`: Simulasi unit test untuk fungsi crypto CLI.
+- Contoh test:
+  - `test_get_coin_info()`: Cek info coin.
+  - `test_check_price()`: Simulasi cek harga.
+  - `test_list_coins()`: Simulasi daftar coin.
+
+> 💡 **Tip**: Kalo lo install Rust nanti, tinggal ketik `cargo test` buat jalankan semua test! 🚀
+
 
 
 ## 🚀 Catatan
