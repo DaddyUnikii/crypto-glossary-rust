@@ -52,3 +52,25 @@ fn main() {
     println!("\n📈 Chart Bitcoin 7 hari:");
     println!("{}", api::get_crypto_chart("BTC"));
 }
+
+mod commands;
+mod data;
+mod ui;
+mod api;
+mod config;
+
+fn main() {
+    println!("📚 Crypto CLI Tool");
+    println!("🔧 Konfigurasi: {}", config::get_config());
+    println!("🎯 Coin default: {}", config::get_default_coin());
+    ui::show_menu();
+    // Simulasi input pengguna
+    let choice = "1"; // Simulasi pilihan 1
+    ui::handle_choice(choice);
+
+    // Simulasi API call
+    println!("\n🔍 Cek harga Bitcoin via API:");
+    println!("{}", api::get_crypto_price("BTC"));
+    println!("\n📈 Chart Bitcoin 7 hari:");
+    println!("{}", api::get_crypto_chart("BTC"));
+}
