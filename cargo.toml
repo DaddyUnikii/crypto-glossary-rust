@@ -7,3 +7,8 @@ version = "0.1.0"
 [lib]
 name = "crypto_glossary"
 test = "tests/lib.rs"
+
+[config]
+name = "crypto_glossary"
+test = "tests/lib.rs"
+
