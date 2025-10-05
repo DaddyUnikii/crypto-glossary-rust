@@ -56,5 +56,19 @@ Bitcoin: $60,000 (simulasi)
 $55k → $60k → $65k
 ```
 
+## 🛠️ Konfigurasi
+- File `config.toml` menyimpan pengaturan aplikasi.
+- Fungsi `get_config()` & `get_default_coin()` baca konfigurasi.
+
+## 🤝 Contributing
+- Baca `.github/CONTRIBUTING.md` buat bantu proyek ini.
+- Contoh kontribusi:
+  - Tambah coin baru di `src/data.rs`
+  - Perbaiki dokumentasi
+  - Tambah unit test di `tests/lib.rs`
+
+> 💡 **Tip**: Kalo lo install Rust nanti, lo bisa bikin PR buat tambah fitur! 🚀
+
+
 ## 🚀 Catatan
 - Project ini nggak bisa di-run karena nggak ada Rust di komputer lo.
