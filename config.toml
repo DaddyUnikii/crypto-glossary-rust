@@ -1,0 +1,8 @@
+# Konfigurasi aplikasi crypto CLI
+[api]
+default_coin = "BTC"
+max_coins = 5
+
+[ui]
+theme = "dark"
+language = "en"
